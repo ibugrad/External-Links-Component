@@ -1,0 +1,9 @@
+public with sharing class External_Links_Controller
+{
+	@AuraEnabled
+	public static List<External_Links__mdt> getUtilityBarLinks(){
+		
+		List<External_Links__mdt> yo= [ SELECT MasterLabel, Link_URL__c, Open_in_Console_Tab__c, Order__c FROM External_Links__mdt WHERE Active_Link__c = TRUE ORDER BY Order__c ASC];
+	    return yo;
+	}
+}
