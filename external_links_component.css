@@ -1,0 +1,23 @@
+.linkStyles
+{
+    display: block;
+    text-align: center;
+}
+
+input:hover
+{
+    color: rgba(27, 82, 151, 1);
+    text-decoration: none;
+}
+
+input:visited
+{
+    text-decoration: none;
+    color: rgba(27, 82, 151, 1);
+}
+
+.linkButton
+{
+    width: 100%;
+    height: 30px;
+}

@@ -1,0 +1,10 @@
+<template>
+	<template if:true={linkList}>
+		<!--Iterating through our list of external links and creating an input of type button
+            with data attributes that hold our important link information -->
+		<template for:each={linkList} for:item="link">
+			<input key={link.Id} data-id={link.Id} class="slds-button slds-button_neutral linkButton" value={link.MasterLabel}
+				   data-url={link.Link_URL__c} data-opentab={link.Open_in_Console_Tab__c} type="button" onclick={openLink}/>
+		</template>
+	</template>
+</template>
