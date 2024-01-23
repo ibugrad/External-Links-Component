@@ -1,4 +1,4 @@
-aaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
 public with sharing class External_Links_Controller
 {
 	@AuraEnabled
