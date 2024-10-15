@@ -1,4 +1,4 @@
-awwpublic with sharing class External_Links_Controller
+aawwpublic with sharing class External_Links_Controller
 {
 	@AuraEnabled
 	public static List<External_Links__mdt> getUtilityBarLinks(){
